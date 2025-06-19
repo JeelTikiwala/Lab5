@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Pets - Jeel Tikiwala</title>
+
+  <!-- CSS: Compiled Bootstrap and Custom Style -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!--Header-->
+    <header class="mb-5">
+
+      <!--Create a container to contain three blocks.-->
+      <div class="container mt-5">
+        <!-- Block1- style at end right-->
+        <div class="d-flex justify-content-end">
+          <div class="btn-group">
+            <button id="darkToggle" class="btn btn-secondary btn-sm" data-bs-theme-value="dark">
+              Dark
+            </button>
+            <button id="lightToggle" class="btn btn-light btn-sm" data-bs-theme-value="light">
+              Light
+            </button>
+          </div>
+        </div>
+
+        <!--block 2-->
+        <h1 class="mb-4">Animals</h1>
+
+        <!--block 3-->
+        <div class="row">
+          <div class="col-md-4">
+            <input type="text"
+            class="form-control form-control-lg"
+            placeholder="Search Animals">
+          </div>
+
+          <!--Navigation-->
+        <div class="col-md-8 discusssion-menu d-flex justify-content-end align-items-center">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Adaptions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-bg-primary rounded-3">Behaviour</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Conservation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Diversity</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </header>
+
+
+         <!--New container for photos, not in header-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="./pics/penguins.jpg" alt="Penguins" class="img-fluid rounded-circle picture-size">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="./pics/dog.jpg" alt="Dogs" class="img-fluid rounded-circle picture-size">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="./pics/cat.jpeg" alt="Cat" class="img-fluid rounded-circle picture-size">
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Scripts -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/darkmodetoggle.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

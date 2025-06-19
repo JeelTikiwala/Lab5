@@ -1,0 +1,23 @@
+$primary: #1d3557;
+$secondary: #1d3557;
+
+@import "bootstrap";
+
+body{
+    background-color: white;
+}
+
+@media (max-width:767px){
+    .discussion-menu {
+        justify-content: center !important;
+    }
+}
+
+$picture-height: 150px;
+$picture-width: 150px;
+
+.picture-size{
+    width: $picture-width;
+    height: $picture-height;
+    object-fit: cover;
+}
